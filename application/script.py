@@ -1,7 +1,7 @@
 import json 
 import random
 
-with open('./socrate.json', 'r') as myfile:
+with open('application/socrate.json', 'r') as myfile:
  data=myfile.read()
 obj = json.loads(data)
 for i in range(10): 
