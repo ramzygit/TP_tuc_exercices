@@ -6,6 +6,6 @@ with open('./socrate.json', 'r') as myfile:
 obj = json.loads(data)
 for i in range(10): 
     tmp = obj['audio_features'][random.randint(0,20)]['id']
-print("mon id est : "+tmp)
+    print("mon id est : "+tmp)
 myfile.close()
 
