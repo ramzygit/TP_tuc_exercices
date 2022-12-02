@@ -1,3 +1,4 @@
+'''import selenuim'''
 from selenium import webdriver
 
 def recup_titre(url:str):
@@ -8,19 +9,19 @@ def recup_titre(url:str):
     driver.close()
     return titre
 
-def compareTitre(t1,t2,t3):
+def compare_titre(titre_1,titre_2,titre_3):
     '''Renvoi la plus Grande Chaine'''
-    if len(t1)<len(t2):
-        if len(t2)<len(t3):
-            return t3
-        return t2
+    if len(titre_1)<len(titre_2):
+        if len(titre_2)<len(titre_3):
+            return titre_3
+        return titre_2
     else:
-        if len(t1)<len(t3):
-            return t3
-        return t1
+        if len(titre_1)<len(titre_3):
+            return titre_3
+        return titre_1
 
 if __name__ == '__main__':
     site1= recup_titre("https://stackoverflow.com/")
     site2=recup_titre("https://openclassrooms.com/")
     site3=recup_titre("https://github.com/")
-    print(compareTitre(site1,site2,site3))
+    print(compare_titre(site1,site2,site3))
