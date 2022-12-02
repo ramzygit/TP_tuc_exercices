@@ -15,10 +15,9 @@ def compare_titre(titre_1,titre_2,titre_3):
         if len(titre_2)<len(titre_3):
             return titre_3
         return titre_2
-    else:
-        if len(titre_1)<len(titre_3):
-            return titre_3
-        return titre_1
+    if len(titre_1)<len(titre_3):
+        return titre_3
+    return titre_1
 
 if __name__ == '__main__':
     site1= recup_titre("https://stackoverflow.com/")
