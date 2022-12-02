@@ -1,9 +1,7 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
-
 
 def recup_titre(url:str):
+    '''Ouvre un site et Recupère son titre'''
     driver = webdriver.Chrome()
     driver.get(url)
     titre = driver.title
@@ -12,13 +10,14 @@ def recup_titre(url:str):
 
 
 def compareTitre(t1,t2,t3):
-    if(len(t1)<len(t2)):
-        if(len(t2)<len(t3)):
+    '''Renvoi la plus Grande Chaine'''
+    if len(t1)<len(t2):
+        if len(t2)<len(t3):
             return t3
         else:
             return t2
     else:
-        if(len(t1)<len(t3)):
+        if len(t1)<len(t3):
             return t3
         else:
             return t1
