@@ -1,0 +1,327 @@
+{
+  "id": "f4d7ef5c-8d66-49bf-ab26-54d64942f913",
+  "version": "2.0",
+  "name": "Exam_test",
+  "url": "https://docs.oracle.com/en/",
+  "tests": [{
+    "id": "90ddcea3-eab9-459c-bfe5-c512a3b719f5",
+    "name": "Test_register",
+    "commands": [{
+      "id": "fd7ae54d-d136-4dbd-9247-68d71dee8016",
+      "comment": "",
+      "command": "open",
+      "target": "https://wethenew.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd79c123-25bf-435f-b1b8-091278fcf7b0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x818",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3764d275-97b1-45a0-8b78-298b88c4d3fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.is-hidden-mobile-only path",
+      "targets": [
+        ["css=.is-hidden-mobile-only path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0c28cab-472d-4f59-8372-3ffee11faf6b",
+      "comment": "",
+      "command": "click",
+      "target": "id=customer_register_link",
+      "targets": [
+        ["id=customer_register_link", "id"],
+        ["linkText=S'inscrire →", "linkText"],
+        ["css=#customer_register_link", "css:finder"],
+        ["xpath=//a[@id='customer_register_link']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/register')]", "xpath:href"],
+        ["xpath=//form/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35d0918a-043a-4e09-9867-8c9447767025",
+      "comment": "",
+      "command": "click",
+      "target": "name=customer[first_name]",
+      "targets": [
+        ["name=customer[first_name]", "name"],
+        ["css=#first_name > #first_name", "css:finder"],
+        ["xpath=//input[@id='first_name']", "xpath:attributes"],
+        ["xpath=//div[@id='first_name']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c65b6634-8f39-43f2-b05f-6479599032b4",
+      "comment": "",
+      "command": "type",
+      "target": "name=customer[first_name]",
+      "targets": [
+        ["name=customer[first_name]", "name"],
+        ["css=#first_name > #first_name", "css:finder"],
+        ["xpath=//input[@id='first_name']", "xpath:attributes"],
+        ["xpath=//div[@id='first_name']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "Register"
+    }, {
+      "id": "e78c4b37-3325-4c13-9851-8ec5ac2f06b9",
+      "comment": "",
+      "command": "click",
+      "target": "name=customer[last_name]",
+      "targets": [
+        ["name=customer[last_name]", "name"],
+        ["css=#last_name > #last_name", "css:finder"],
+        ["xpath=//input[@id='last_name']", "xpath:attributes"],
+        ["xpath=//div[@id='last_name']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb09b235-b040-4c07-8e5b-5a85178737d7",
+      "comment": "",
+      "command": "type",
+      "target": "name=customer[last_name]",
+      "targets": [
+        ["name=customer[last_name]", "name"],
+        ["css=#last_name > #last_name", "css:finder"],
+        ["xpath=//input[@id='last_name']", "xpath:attributes"],
+        ["xpath=//div[@id='last_name']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Register"
+    }, {
+      "id": "dd1ee308-05bd-44d4-911f-d2e9d46ae0be",
+      "comment": "",
+      "command": "click",
+      "target": "name=customer[email]",
+      "targets": [
+        ["name=customer[email]", "name"],
+        ["css=#email > #email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='email']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b701724-1efc-4f2e-8388-9541a11df1e2",
+      "comment": "",
+      "command": "type",
+      "target": "name=customer[email]",
+      "targets": [
+        ["name=customer[email]", "name"],
+        ["css=#email > #email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='email']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "alt.jo-0o8byr8w@yopmail.com"
+    }, {
+      "id": "9338bf27-4ab1-4de6-9c9c-a2f569ef7a80",
+      "comment": "",
+      "command": "click",
+      "target": "name=customer[password]",
+      "targets": [
+        ["name=customer[password]", "name"],
+        ["css=#password > #password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a10f22e-ce2c-4d12-8974-2564842abd5e",
+      "comment": "",
+      "command": "type",
+      "target": "name=customer[password]",
+      "targets": [
+        ["name=customer[password]", "name"],
+        ["css=#password > #password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Register@Register"
+    }, {
+      "id": "72d61a5c-ecc7-46a7-8056-200c8538e13b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.action_bottom > .btn",
+      "targets": [
+        ["css=.action_bottom > .btn", "css:finder"],
+        ["xpath=//input[@value=\"S'inscrire\"]", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7c523748-03ab-40a3-bc83-3bfe354e0e8b",
+    "name": "Test_titre",
+    "commands": [{
+      "id": "3dc3752b-1cef-417e-9ca5-c1d7356f3844",
+      "comment": "",
+      "command": "open",
+      "target": "https://fr.wikipedia.org/wiki/Java",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c770c49-0a82-4aa7-90c4-147e84b7fe42",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Java — Wikipédia",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8cdde413-b666-4f01-9463-dce4fc472987",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=Toponyme",
+      "targets": [
+        ["id=Toponyme", "id"],
+        ["css=#Toponyme", "css:finder"],
+        ["xpath=//span[@id='Toponyme']", "xpath:attributes"],
+        ["xpath=//div[@id='mw-content-text']/div/h2/span", "xpath:idRelative"],
+        ["xpath=//h2/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Toponyme')]", "xpath:innerText"]
+      ],
+      "value": "Toponyme"
+    }]
+  }, {
+    "id": "d5b9322b-a494-4449-855d-d1f4042f2c31",
+    "name": "Test_doc",
+    "commands": [{
+      "id": "7cc3d444-5f30-4ee6-af02-92c06673e036",
+      "comment": "",
+      "command": "open",
+      "target": "https://docs.oracle.com/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "506225e3-f000-4788-8492-92bcfa138b1e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x818",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ebd75ff-a0c8-434b-a501-f240ade308c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-bar-container",
+      "targets": [
+        ["id=search-bar-container", "id"],
+        ["css=#search-bar-container", "css:finder"],
+        ["xpath=//div[@id='search-bar-container']", "xpath:attributes"],
+        ["xpath=//div[@id='hero-container']/div[2]", "xpath:idRelative"],
+        ["xpath=//big-hero/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65985d56-2370-4fcf-9f8e-a3a5fd5ed6a5",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-bar-input",
+      "targets": [
+        ["id=search-bar-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-bar-input", "css:finder"],
+        ["xpath=//input[@id='search-bar-input']", "xpath:attributes"],
+        ["xpath=//div[@id='search-bar-container']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf179083-d8bb-463b-8337-e2018784094a",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-bar-input",
+      "targets": [
+        ["id=search-bar-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-bar-input", "css:finder"],
+        ["xpath=//input[@id='search-bar-input']", "xpath:attributes"],
+        ["xpath=//div[@id='search-bar-container']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "java"
+    }, {
+      "id": "9350971e-2ff6-47a0-b80c-38b67cc567f0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-bar-input",
+      "targets": [
+        ["id=search-bar-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-bar-input", "css:finder"],
+        ["xpath=//input[@id='search-bar-input']", "xpath:attributes"],
+        ["xpath=//div[@id='search-bar-container']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ae9b7012-fc1f-47fa-bb9f-1122fc970533",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fdf5f5b-6e5c-4ed1-8f5a-019274eeb76c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Java SE Language Updates 19",
+      "targets": [
+        ["linkText=Java SE Language Updates 19", "linkText"],
+        ["css=.container-search-result:nth-child(1) .result-row a", "css:finder"],
+        ["xpath=//div[@id='main-results']/div/div/div[2]/div/span/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://docs.oracle.com/en/java/javase/19/language/index.html')]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Java SE Language Updates 19')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1f0e2b7-0845-479c-981b-66a200ff785b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lesson: The Java Technology Phenomenon (The Java Tutorials > Getting Started)",
+      "targets": [
+        ["linkText=Lesson: The Java Technology Phenomenon (The Java Tutorials > Getting Started)", "linkText"],
+        ["css=.container-search-result:nth-child(3) .result-row a", "css:finder"],
+        ["xpath=//div[@id='main-results']/div[3]/div/div[2]/div/span/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://docs.oracle.com/javase/tutorial/getStarted/intro/index.html')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/div/span/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lesson: The Java Technology Phenomenon (The Java Tutorials > Getting Started)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "804b03f6-3105-4729-b70e-b75f5f3bd23b",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(2) > li:nth-child(1)",
+      "targets": [
+        ["css=ul:nth-child(2) > li:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='PageContent']/ul/li", "xpath:idRelative"],
+        ["xpath=//li", "xpath:position"],
+        ["xpath=//li[contains(.,'About the Java Technology')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "00d9a6bf-9f11-419d-84fa-6f2acd44d251",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://developer.mozilla.org/", "https://wethenew.com/", "https://fr.wikipedia.org/wiki/Java", "https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html", "https://docs.oracle.com/en/"],
+  "plugins": []
+}
