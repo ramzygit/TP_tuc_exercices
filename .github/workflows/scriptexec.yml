@@ -5,7 +5,8 @@ on:
   push:
     branches:
       - main
-
+env: 
+  PY_COLORS: 1
 jobs:
   tests:
     runs-on: ubuntu-latest
@@ -21,4 +22,4 @@ jobs:
           python -m pip install -r requirements.txt 
       - name: Execute scripts
         run: 
-          python --color=yes ./application/script.py
+          python ./application/script.py
